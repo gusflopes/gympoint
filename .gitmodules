@@ -1,0 +1,9 @@
+[submodule "backend"]
+	path = backend
+	url = git@github.com:gusflopes/gympoint-backend.git
+[submodule "frontend"]
+	path = frontend
+	url = git@github.com:gusflopes/gympoint-frontend.git
+[submodule "mobile"]
+	path = mobile
+	url = git@github.com:gusflopes/gympoint-mobile.git
