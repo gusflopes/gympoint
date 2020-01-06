@@ -44,18 +44,11 @@ Após clonar o repositório, basta acessar a respectiva pasta conforme a funcion
 
 ## :information_source: Informações Importantes
 
-Para clonar e rodar essa aplicação você vai precisar de [Git](https://git-scm.com), [Docker](https://www.docker.com) e [Docker Compose][https://docs.docker.com/compose/].
+Para clonar e rodar essa aplicação você vai precisar de [Git](https://git-scm.com), [Docker](https://www.docker.com) e [Docker Compose](https://docs.docker.com/compose/).
 
-**We recommend you run this project using Docker and Docker-compose, so it'll build all the resources needed to run the project.**
 
-**Running with Docker:**
-```bash
-docker-compose up -d
-yarn
-cp .env.example .env
-docker-compose up -d
-docker exec -it gympoint sh -c "yarn sequelize db:seed:all"
-```
+Para utilizar o frontend WEB ou Mobile será necessário que o backend esteja rodando. Apenas o backend roda em containeres Docker.
+
 
 ---
 
